@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/r119050flod/public_html/
+
+    # Clean the deployment directory
+    - echo "Cleaning up existing files in deployment directory"
+    - /bin/rm -rf $DEPLOYPATH/*
+
+      # Copy all files and folders
+    - echo "Copying all files and folders"
+    - /bin/cp -r * $DEPLOYPATH
