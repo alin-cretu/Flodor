@@ -47,8 +47,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html" class="active" data-i18n="home"></a></li>
-          <li><a href="about.html" data-i18n="about"></a></li>
-          <li><a href="services.html" data-i18n="services"></a></li>
+          <li><a href="#featured-services" data-i18n="about"></a></li>
+          <li><a href="#service" data-i18n="services"></a></li>
           <li><a href="contact.html">Contact</a></li>
           <select id="languageSelect" onChange="handleLanguageSelect(event)" class=" form-select-sm langSelect">
             <option value="en"> 🇬🇧 English </option>
@@ -62,7 +62,6 @@
     </div>
   </header>
   <!-- End Header -->
-  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
@@ -72,6 +71,17 @@
           <h2 data-aos="fade-up" data-i18n="hero_message"></h2>
           <p data-aos="fade-up" data-aos-delay="100" data-i18n="hero_description">
           </p>
+
+          <div class="call-to-action">
+          <div class="container" data-aos="zoom-out">
+            <div class="row justify-content-center">
+              <div class="col-lg-8 text-center">
+                <a class="cta-btn" href="contact.html"  data-i18n="book_now"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
           </div>
         </div>
@@ -192,7 +202,7 @@
                 <img src="assets/img/Airport-Shuttle-Services.jpg" alt="" class="img-fluid" />
               </div>
               <h3>
-                <a href="service-details.html" class="stretched-link" data-i18n="airport_transfers"></a>
+                <a href="" class="stretched-link" data-i18n="airport_transfers"></a>
               </h3>
               <p data-i18n="airport_transfers_description">
 
@@ -204,12 +214,12 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/Flodor Transportstics-service.jpg" alt="" class="img-fluid" />
+                <img src="assets/img/event-transportation.jpg" alt="" class="img-fluid" />
               </div>
               <h3>
-                <a href="service-details.html" class="stretched-link" data-i18n=""></a>
+                <a href="" class="stretched-link" data-i18n="event_transportation"></a>
               </h3>
-              <p data-i18n="">
+              <p data-i18n="event_transportation_description">
               </p>
             </div>
           </div>
@@ -221,7 +231,7 @@
                 <img src="assets/img/corporate_transportation.png" alt="" class="img-fluid" />
               </div>
               <h3>
-                <a href="service-details.html" class="stretched-link" data-i18n="corporate_transportation"></a>
+                <a href="" class="stretched-link" data-i18n="corporate_transportation"></a>
               </h3>
               <p data-i18n="corporate_transportation_description">
 
@@ -233,15 +243,13 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid" />
+                <img src="assets/img/hotel_transportation.png" alt="" class="img-fluid" />
               </div>
               <h3>
-                <a href="service-details.html" class="stretched-link" data-i18n="">Trucking</a>
+                <a href="" class="stretched-link" data-i18n="hotel_transfers"></a>
               </h3>
-              <p data-i18n="">
-                Dicta quam similique quia architecto eos nisi aut ratione aut
-                ipsum reiciendis sit doloremque oluptatem aut et molestiae ut
-                et nihil
+              <p data-i18n="hotel_transfers_description">
+
               </p>
             </div>
           </div>
@@ -250,15 +258,13 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid" />
+                <img src="assets/img/budapest.jpg" alt="" class="img-fluid" />
               </div>
               <h3>
-                <a href="service-details.html" class="stretched-link" data-i18n="">Packaging</a>
+                <a href="" class="stretched-link" data-i18n="inter_city"></a>
               </h3>
-              <p data-i18n="">
-                Illo consequuntur quisquam delectus praesentium modi
-                dignissimos facere vel cum onsequuntur maiores beatae
-                consequatur magni voluptates
+              <p data-i18n="inter_city_description">
+                
               </p>
             </div>
           </div>
@@ -267,15 +273,13 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid" />
+                <img src="assets/img/party.jpg" alt="" class="img-fluid" />
               </div>
               <h3>
-                <a href="service-details.html" class="stretched-link" data-i18n="">Warehousing</a>
+                <a href="" class="stretched-link" data-i18n="night_out"></a>
               </h3>
-              <p data-i18n="">
-                Quas assumenda non occaecati molestiae. In aut earum sed natus
-                eatae in vero. Ab modi quisquam aut nostrum unde et qui est
-                non quo nulla
+              <p data-i18n="night_out_description">
+
               </p>
             </div>
           </div>
@@ -285,132 +289,6 @@
     </section>
     <!-- End Services Section -->
 
-    <!-- ======= Call To Action Section ======= -->
-    <section id="call-to-action" class="call-to-action">
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h3>Call To Action</h3>
-            <a class="cta-btn" href="#">Call To Action</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Call To Action Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5">
-            <img src="assets/img/features-1.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="col-md-7">
-            <h3>
-              Voluptatem dignissimos provident quasi corporis voluptates sit
-              assumenda.
-            </h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <ul>
-              <li>
-                <i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex
-                ea commodo consequat.
-              </li>
-              <li>
-                <i class="bi bi-check"></i> Duis aute irure dolor in
-                reprehenderit in voluptate velit.
-              </li>
-              <li>
-                <i class="bi bi-check"></i> Ullam est qui quos consequatur eos
-                accusamus.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/features-2.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="col-md-7 order-2 order-md-1">
-            <h3>Corporis temporibus maiores provident</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum
-            </p>
-          </div>
-        </div>
-        <!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5">
-            <img src="assets/img/features-3.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="col-md-7">
-            <h3>
-              Sunt consequatur ad ut est nulla consectetur reiciendis animi
-              voluptas
-            </h3>
-            <p>
-              Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus
-              quia minima quod. Sunt saepe odit aut quia voluptatem hic
-              voluptas dolor doloremque.
-            </p>
-            <ul>
-              <li>
-                <i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex
-                ea commodo consequat.
-              </li>
-              <li>
-                <i class="bi bi-check"></i> Duis aute irure dolor in
-                reprehenderit in voluptate velit.
-              </li>
-              <li>
-                <i class="bi bi-check"></i> Facilis ut et voluptatem aperiam.
-                Autem soluta ad fugiat.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/features-4.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="col-md-7 order-2 order-md-1">
-            <h3>
-              Quas et necessitatibus eaque impedit ipsum animi consequatur
-              incidunt in
-            </h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum
-            </p>
-          </div>
-        </div>
-        <!-- Features Item -->
-      </div>
-    </section>
-    <!-- End Features Section -->
 
   </main>
   <!-- End #main -->
@@ -424,16 +302,13 @@
             <span>Flodor Transports</span>
           </a>
           <p>
-            Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-            nada terra videa magna derita valies darta donna mare fermentum
-            iaculis eu non diam phasellus.
           </p>
-          <div class="social-links d-flex mt-4">
+          <!-- <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          </div>
+          </div> -->
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
@@ -447,17 +322,6 @@
           </ul>
         </div>
 
-        <!-- <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div> -->
-
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4 data-i18n="contact_us"></h4>
           <p>
@@ -465,7 +329,7 @@
             Timișoara, Timiș 300743<br />
             Romania <br /><br />
             <strong data-i18n="phone"></strong> +40 763 398 923<br />
-            <strong>Email:</strong> info@example.com<br />
+            <strong>Email:</strong> flodor.drive@yahoo.com<br />
           </p>
         </div>
       </div>
