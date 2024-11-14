@@ -816,15 +816,7 @@ section {
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
-.call-to-action {
-  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)),
-}
 
-@media (min-width: 1365px) {
-  .call-to-action {
-    background-attachment: fixed;
-  }
-}
 
 .call-to-action h3 {
   color: #fff;
