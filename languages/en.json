@@ -8,7 +8,15 @@
   "airport_transfers_description": "Our Airport Transfer service in Timisoara, Romania, is designed to provide convenient, reliable, and comfortable transportation to and from local and nearby international airports. Whether you are traveling for business or leisure, our professional and courteous drivers ensure you reach your destination safely and on time.",
   "corporate_transportation_description": "Enhance your business travel experience with our Corporate Transportation services. We offer reliable and comfortable transport solutions tailored for company employees, executives, and VIPs. Our fleet of well-maintained vehicles and professional drivers ensure punctuality and safety for all your corporate travel needs, including daily commutes, business meetings, conferences, and corporate events.",
   "our_services": "Our Services",
-  "corporate_transportation": "Transport Corporate",
+  "corporate_transportation": "Corporate and Executive Transport",
+  "event_transportation": "Event and Group Transportation",
+  "event_transportation_description": "Transport solutions for weddings, parties, or special events, ensuring guests arrive safely and on time. This can include shuttles or private car services for attendees.",
+  "hotel_transfers": "Hotel and Accommodation Transfers",
+  "hotel_transfers_description": "Reliable transportation for guests between hotels, resorts, or other accommodations and various destinations like tourist sites, restaurants, and shopping areas, enhancing convenience for travelers.",
+  "inter_city": "Long-Distance and Intercity Rides",
+  "inter_city_description": "Comfortable, safe transport for clients needing travel between cities, ideal for business trips or those visiting family. This service could include scheduled routes or private long-distance hires.",
+  "night_out": "Night Out or Party Transport",
+  "night_out_description": "Safe, reliable transportation for clients going out for social events, like dinners, concerts, or nightlife. This service can focus on group travel, ensuring clients have a designated driver and return safely.",
   "contact_us": "Contact Us",
   "phone": "Phone:",
   "airport_transfer": "Airport Transfer",
@@ -21,5 +29,8 @@
   "corporate_services": "Personalized Corporate Services",
   "corporate_services_details": "We provide services adapted to the transport needs of companies, guaranteeing discretion and professionalism for our business partners.",
   "safety": "Safety and Comfort is our priority",
-  "safety_details": "We ensure a safe and comfortable environment by using advanced technology and strict maintenance procedures for every vehicle in our fleet."
+  "safety_details": "We ensure a safe and comfortable environment by using advanced technology and strict maintenance procedures for every vehicle in our fleet.",
+  "book_now": "Book Now",
+  "location": "Location:",
+  "your_name_placeholder": "Your Name"
 }

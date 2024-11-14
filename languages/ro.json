@@ -8,7 +8,15 @@
   "airport_transfers_description": "Serviciul nostru de transfer aeroport din Timișoara, România, este conceput pentru a oferi transport convenabil, de încredere și confortabil către și de la aeroporturile locale și internaționale din apropiere. Indiferent dacă călătoriți pentru afaceri sau pentru agrement, șoferii noștri profesioniști și amabili se asigură că ajungeți la destinație în siguranță și la timp.",
   "corporate_transportation_description": "Îmbunătățiți experiența călătoriilor de afaceri cu serviciile noastre de Transport Corporativ. Oferim soluții de transport fiabile și confortabile, adaptate pentru angajați, directori și VIP-uri. Flota noastră de vehicule bine întreținute și șoferii profesioniști asigură punctualitatea și siguranța pentru toate nevoile dvs. de călătorie corporativă, inclusiv naveta zilnică, întâlniri de afaceri, conferințe și evenimente corporative.",
   "our_services": "Serviciile Noastre",
-  "corporate_transportation": "Corporate Transportation",
+  "corporate_transportation": "Transport Corporate",
+  "event_transportation": "Transport Evenimente",
+  "hotel_transfers": "Transferuri la Hotel și Cazare",
+  "hotel_transfers_description": "Servicii de transport de încredere pentru oaspeți între hoteluri, pensiuni sau alte tipuri de cazare și diverse destinații, precum obiective turistice, restaurante sau centre comerciale, oferind călătorilor o experiență placuta și confortabilă.",
+  "event_transportation_description": "Soluții de transport pentru nunți, petreceri sau evenimente speciale, asigurând sosirea în siguranță și la timp a invitaților. Aceste pot include servicii de transfer sau transport privat pentru participanți.",
+  "inter_city": "Curse pe Distanțe Lungi și Între Orașe",
+  "inter_city_description": "Transport confortabil și sigur pentru clienții care au nevoie de călătorii între orașe, din Romania sau tarile vecine. Ideal pentru deplasări de afaceri sau vizite la familie. Acest serviciu poate include rute programate sau închirieri private pe distanțe lungi.",
+  "night_out": "Transport pentru Evenimente Sociale și Ieșiri în Oraș.",
+  "night_out_description": "Transport sigur și de încredere pentru clienții care merg la evenimente sociale, cum ar fi cine, concerte sau viața de noapte. Acest serviciu poate fi orientat către călătoriile de grup, asigurând călătorilor un șofer desemnat și o întoarcere în siguranță.",
   "contact_us": "Contact",
   "phone": "Telefon:",
   "airport_transfer": "Transfer Aeroport",
@@ -21,5 +29,8 @@
   "corporate_services": "Servicii Corporate Personalizate",
   "corporate_services_details": "Punem la dispoziție servicii adaptate nevoilor de transport ale companiilor, garantând discreție și profesionalism pentru partenerii noștri de afaceri.",
   "safety": "Siguranță și Confort Prioritare",
-  "safety_details": "Asigurăm un mediu sigur și confortabil, folosind tehnologie avansată și proceduri stricte de întreținere pentru fiecare vehicul din flota noastră."
+  "safety_details": "Asigurăm un mediu sigur și confortabil, folosind tehnologie avansată și proceduri stricte de întreținere pentru fiecare vehicul din flota noastră.",
+  "book_now": "Rezerva Acum",
+  "location": "Locatie:",
+  "your_name_placeholder": "Numele Tau"
 }
